@@ -1,0 +1,33 @@
+form {
+    width: 41vw;
+    display: block;
+    margin: 1vh auto;
+}
+
+form textarea {
+    display: block;
+    margin: 1vh auto;
+    font-size: 1.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: none;
+}
+
+.post-title {
+    font-size: 1.2vw;
+}
+
+form input[type='submit'] {
+    color: white;
+    border: none;
+    background-color: rgb(42, 116, 150);
+    font-size: 1.2vw;
+    padding: .5vh 1vw;
+    display: block;
+    margin-left: 34.8vw;
+}
+
+form input[type='submit']:hover {
+    background-color: rgb(56, 189, 212);
+    cursor: pointer;
+    transition: .2s;
+}

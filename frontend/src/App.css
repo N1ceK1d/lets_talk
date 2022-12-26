@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+    margin: 0;
+}
+
+.Content {
+    background-color: rgb(255, 255, 255);
+    width: 85vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

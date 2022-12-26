@@ -1,0 +1,28 @@
+.Menu {
+    background-color: rgb(42, 116, 150);
+    width: 15vw;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vw;
+}
+
+.Menu p {
+    padding: 1vw;
+    margin: 0;
+}
+
+.Menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.Menu p:hover {
+    background-color: rgb(56, 189, 212);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Menu a.active p {
+    background-color: rgb(56, 189, 212);
+}
