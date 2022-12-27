@@ -1,0 +1,31 @@
+.Contact {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+}
+
+.Contact:hover {
+    background-color: rgb(56, 189, 212);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Contact img {
+    width: 3vw;
+    height: 6vh;
+    margin: 1vw;
+    border-radius: 10vw;
+}
+
+.contact-name {
+    font-size: 1.5vw;
+    color: white;
+}
+
+.offline {
+    border: solid .3vw rgb(116, 116, 116);
+}
+
+.online {
+    border: solid .3vw rgb(20, 221, 80);
+}

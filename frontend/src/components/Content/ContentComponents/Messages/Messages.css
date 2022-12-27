@@ -1,0 +1,53 @@
+.Messages {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts-list {
+    background-color: rgb(42, 116, 150);
+    max-height: 92vh;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.contacts-list h1 {
+    color: white;
+    margin: 1vw;
+    font-size: 2vw;
+    border-bottom: solid .2vw white;
+}
+
+.contacts-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.message-block {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.message-block form {
+    width: 65vw;
+    height: 22vh;
+    background-color: rgb(150, 150, 150);
+    margin: 0;
+}
+
+.message-block form textarea {
+    height: 10vh;
+    width: 40vw;
+    border: none;
+    border-radius: 1vw;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    resize: none;
+}
+
+.message-block form textarea::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

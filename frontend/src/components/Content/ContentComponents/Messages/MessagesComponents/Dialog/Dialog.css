@@ -1,0 +1,54 @@
+.Dialog {
+    background-image: url('https://i.pinimg.com/originals/d0/8d/84/d08d845ce6c47edb9c97ab5860407c69.jpg');
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    max-height: 80vh;
+    width: 65vw;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-bottom: 0;
+}
+
+.Dialog::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.message {
+    text-align: left;
+    margin: 1vw;
+    color: white;
+    background-color: rgb(42, 116, 150);
+    padding: .5vw;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+}
+
+.ContactMessages {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    max-width: 50vw;
+    text-align: left;
+}
+
+.user-message {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-left: 32vw;
+    width: 30vw;
+    max-width: 50vw;
+}
+
+.user-message img {
+    width: 5vw;
+    height: 10vh;
+    margin: .5vw;
+    border-radius: 10vw;
+}
+
